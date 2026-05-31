@@ -1,4 +1,5 @@
 import { Mail, MapPin } from "lucide-react";
+import nusacitra from "../assets/nusacitra.png";
 
 export default function Navbar() {
   return (
@@ -6,17 +7,7 @@ export default function Navbar() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="flex items-center justify-between py-2">
           <div className="w-1/2 flex items-center gap-4 bg-slate-200">
-            <div className="flex h-16 w-16 shrink-0 items-center justify-center bg-red-600 text-2xl font-bold text-white">
-              NA
-            </div>
-            <div>
-              <h1 className="text-lg font-bold text-red-600">
-                PT. NUSACITRA ANUGERAHPRATAMA
-              </h1>
-              <p className="text-lg font-semibold text-blue-600">
-                General Contractor & Supplier
-              </p>
-            </div>
+            <img src={nusacitra} alt="Nusa Citra" className="h-10" />
           </div>
 
           <div className="flex flex-col items-end gap-2 bg-slate-300">
