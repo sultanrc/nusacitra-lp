@@ -5,14 +5,14 @@ export default function Navbar() {
   return (
     <header className="w-full bg-zinc-100">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="flex items-center justify-between py-2">
-          <div className="w-1/2 flex items-center gap-4 bg-slate-200">
+        <div className="flex items-center justify-between py-4">
+          <div className="w-1/2 flex items-center gap-4 ">
             <img src={nusacitra} alt="Nusa Citra" className="h-10" />
           </div>
 
-          <div className="flex flex-col items-end gap-2 bg-slate-300">
+          <div className="flex flex-col items-end gap-2 ">
             {/* Top Info */}
-            <div className="flex items-center gap-8 text-sm font-semibold">
+            <div className="flex items-center gap-8 text-[12px] font-semibold">
               <div className="flex items-center gap-2">
                 <MapPin size={18} />
                 <span>CENTRAL JAKARTA</span>
