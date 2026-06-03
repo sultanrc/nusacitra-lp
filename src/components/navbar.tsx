@@ -3,9 +3,9 @@ import nusacitra from "../assets/nusacitra.png";
 
 export default function Navbar() {
   return (
-    <header className="w-full bg-zinc-100">
+    <header className="w-full bg-zinc-100 sticky top-0 z-50 font-['Roboto_Condensed']">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="flex items-center justify-between py-4">
+        <div className="flex items-center justify-between py-5">
           <div className="w-1/2 flex items-center gap-4 ">
             <img src={nusacitra} alt="Nusa Citra" className="h-10" />
           </div>
